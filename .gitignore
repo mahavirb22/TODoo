@@ -1,0 +1,49 @@
+# =========================
+# ENV FILES (SECRETS)
+# =========================
+.env
+.env.*
+!*.example
+
+# =========================
+# NODE / PACKAGE
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# FRONTEND (VITE / REACT)
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+frontend/.vite/
+
+# =========================
+# BACKEND
+# =========================
+backend/node_modules/
+backend/.env
+
+# =========================
+# BUILD / CACHE
+# =========================
+dist/
+build/
+.cache/
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# EDITORS
+# =========================
+.vscode/
+.idea/
